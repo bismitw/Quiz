@@ -168,6 +168,12 @@ button:hover{
 
 @media (max-width:500px) {
 
+    body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
     /* when we hit 500px and below, implement the styles below */
 
     .screen {
