@@ -5,18 +5,10 @@
     box-sizing: border-box;
 
 }
-html, body {
-    height: 100%;
-}
 
 
 body{
     background: #f5efe6;
-    background-image: url("./images/quiz_background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,13 +164,7 @@ button:hover{
 /* Responsive Design */
 
 @media (max-width:500px) {
-
     /* when we hit 500px and below, implement the styles below */
-
-    body {
-    background-position: center center;
-    background-size: cover;
-    }
     .screen {
         padding: 1rem;
 
