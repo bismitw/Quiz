@@ -7,7 +7,11 @@
 }
 
 body{
-    background: #2e96e1;
+    background: #f5efe6;
+    background-image: url("./images/quiz_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
